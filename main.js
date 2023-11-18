@@ -2,6 +2,7 @@ let h1 = document.querySelector("h1")
 let timer = document.querySelector(".counter")
 let startBtn = document.querySelector(".start")
 let clickBtn = document.querySelector(".click")
+let restartBtn = document.querySelector(".restart")
 let score = document.querySelector(".score")
 let span = document.querySelector("span")
 
@@ -18,6 +19,7 @@ function countdown() {
         timer.style.display = 'none'
         score.style.fontSize = "3.1rem"
         score.style.color = "#224b42"
+        restartBtn.style.display = 'block'
     }
 
 }
